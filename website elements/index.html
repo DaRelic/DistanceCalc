@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yards and Meters Distance Calculator</title>
+</head>
+<body>
+    <h1>Yards and Meters Distance Calculator/Convertor</h1>
+    <form method="post" action="/calculateDistance">
+        <label>1st Point of Distance:</label>
+        <input type="text" name="distance1"><br>
+        <label>Unit of Measurment:</label>
+        <select name="unit1">
+            <option value="meters">Meters</option>
+            <option value="yards">Yards</option>
+        </select><br>
+        <label>2nd Point of Distance:</label>
+        <input type="text" name="distance2"><br>
+        <label>Unit of Measurment:</label>
+        <select name="unit2">
+            <option value="Meters">Meters</option>
+            <option value="Yards">Yards</option>
+        </select><br>
+        <label>Output Distance:</label>
+        <select name="outputUnit">
+            <option value="meters">Meters</option>
+            <option value="yards">Yards</option>
+        </select><br>
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
